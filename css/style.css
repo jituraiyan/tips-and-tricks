@@ -1,0 +1,47 @@
+body{
+	font-family: 'Lora', serif;
+}
+.main-content{
+	width: 70%;
+	margin: 110px auto;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.16em;
+}
+img{
+	width: 100%;
+    margin: 8px 0 15px;
+}
+p.italic {
+    font-size: 24px;
+    font-style: italic;
+    margin: 1em 0;
+    line-height: 1.3em;
+    color: #313131;
+}
+p{
+	font-size: 18px;
+    line-height: 1.7em;
+    margin: 1.2em 0;
+}
+
+.back-to-top{
+	background: rgba(0,0,0,0.85);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 15px 20px 10px;
+    cursor: pointer;
+	display: none;
+	transition: background 0.25s ease-in-out;
+}
+.back-to-top:hover{
+	background: rgba(0,0,0,1);
+}
+.back-to-top i{
+	font-size: 40px;
+	color: #fff;
+}
