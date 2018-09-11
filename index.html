@@ -36,18 +36,20 @@
 				<p>Mammasa mamma Nunc ut dang izzle dizzle pretizzle faucibizzle. Crizzle own yo' lacizzle sheezy dui condimentum ultricies. Ut black. Pimpin' izzle urna. Crackalackin phat ipsizzle sizzle mi. Shizzlin dizzle tellivizzle turpizzle.</p>
 				<p>Etiam laoreet urna ut nisl. Sed quizzle arcu. Pizzle crunk, ipsizzle for sure malesuada scelerisque, nulla purizzle euismizzle ass, izzle luctus metus nulla izzle augue. Vivamizzle doggy, tortor izzle varizzle congue, nibh boofron ultricizzle turpis, izzle da bomb leo sure bling bling we gonna chung. Maurizzle nizzle, orci vel sure consectetuer, sizzle augue luctizzle phat, crackalackin bibendizzle enizzle brizzle izzle nisl. Nullam mammasay</p>
 				<p>Mammasa mamma oo sa black the bizzle ma nizzle eleifend dope. Phasellus nizzle nibh. Curabitizzle non gangster vel i'm in the shizzle fo crunk.  Nunc ut dang izzle dizzle pretizzle faucibizzle. Crizzle own yo' lacizzle sheezy dui condimentum ultricies. Ut black. Pimpin' izzle urna. Crackalackin phat ipsizzle sizzle mi. Shizzlin dizzle tellivizzle turpizzle.</p>
+				<br>
+				<button type="button" id="addToCartButton" class="btn">Purchase</button>
+				<script type="text/javascript">
+				$( '#$addToCartButton' ).click(function() {
+					fbq('track', 'Purchase', {
+					    value: conversion,
+					    currency: 'currency',
+					    content_ids: 'content_id',
+					    content_type: 'content_type',
+					  });
+				});
+				</script>
 			</div>
-			<button type="button" id="addToCartButton" class="btn">Purchase</button>
-			<script type="text/javascript">
-			$( '#$addToCartButton' ).click(function() {
-				fbq('track', 'Purchase', {
-				    value: conversion,
-				    currency: 'currency',
-				    content_ids: 'content_id',
-				    content_type: 'content_type',
-				  });
-			});
-			</script>
+			
 		</div>
 	</section>
 	<div class="back-to-top">
